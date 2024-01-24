@@ -17,6 +17,8 @@ pr-run-mode = "skip"
 # Whether to pass --all-features to cargo build
 all-features = true
 
+allow-dirty = ["ci"]
+
 [workspace]
 resolver = "2"
 members = ["casr", "libcasr"]
